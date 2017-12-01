@@ -1,0 +1,6 @@
+.container .block a {
+	display: block;
+	padding: 15px;
+	margin: 15px;
+	background-color: lightgrey;
+}
