@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1">
+
+	<title>Статьи | Строительная компания</title>
+	<link rel="icon" type="image/png" href="logo-ico.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/top-menu.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/news.css">
+</head>
+
+<body>
+	<!-- TOP MENU -->
+	<header id="top">
+		<div class="menu container">
+			<div class="logo">
+				<a href="index.html" class="logo logo_lg" title="Главная"><img src="assets/img/logo.png" title="Главная" alt="Главная"></a>
+				<a href="index.html" class="logo logo_sm" title="Главная"><img src="assets/img/logo-dark.png" title="Главная" alt="Главная"></a>
+			</div>
+			<ul class="main-menu">
+				<li><a href="index.html#about" title="о компании">о компании</a></li>
+				<li><a href="service.html" title="наши услуги">наши услуги <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+					<ul class="sub-menu">
+						<li><a href="service.html">Архитектурное проектирование</a></li>
+						<li><a href="service.html">Реконструкция существующих зданий и сооружений</a></li>
+						<li><a href="service.html">Техническое заключение конструкций, экспертиза</a></li>
+						<li><a href="service.html">Капитальный и текущий ремонт помещений любого назначения</a></li>
+						<li><a href="service.html">Малоэтажное строительство</a></li>
+						<li><a href="service.html">Разработка и согласование проектной документации</a></li>
+					</ul>
+				</li>
+				<li><a href="index.html#project" title="проекты">проекты</a></li>
+				<li><a href="#news" title="статьи">статьи</a></li>
+				<li><a href="#contact" title="контакты">контакты</a></li>
+				<li><a href="" class="icon" onclick="myFunction('myDropdown'); return(false)">
+					<button type="button" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                  </button>
+				</a></li>
+			</ul>
+			<div class="responsive-menu" id="myDropdown" style="display: none;">
+				<a href="index.html#about">о компании</a>
+				<a href="service.html">наши услуги</a>
+				<a href="index.html#project">проекты</a>
+				<a href="news.html">статьи</a>
+				<a href="#contact">контакты</a>
+			</div>
+		</div>
+		</div>
+	</header>
+	<!-- END TOP MENU -->
+
+	<!-- NEWS -->
+	<section class="news">
+	    <div class="container">
+			<ol class="breadcrumb">
+				<li>
+				<a href="index.html" title="Главная | Строительная компания">
+					<i class="fa fa-home"></i> Главная
+				</a></li>
+				<li class="active">Статьи</li>
+			</ol>
+		</div>
+		<div class="container">
+	        <div class="tabs">
+		    <ul class="nav nav-tabs">
+			    <li class="active"><a href="#tab-1" data-toggle="tab">Новости <span class="badge">6</span></a></li>
+			    <li><a href="#tab-2" data-toggle="tab">Идеи для дома <span class="badge">6</span></a></li>
+			    <li><a href="#tab-3" data-toggle="tab">Выставки <span class="badge">1</span></a></li>
+		    </ul>
+		    <div class="tab-content">
+		    	<div class="tab-pane fade in active" id="tab-1">
+		    		<div class="row">
+				<div class="col-sm-4">
+					<a href="#news1" data-toggle="collapse">
+						<div class="thumbnail">
+							<img src="assets/img/news1.jpg" alt="Андрейково" title="Андрейково">
+							<h4>В Андрейково закончены кровельные работы</h4>
+						</div>
+					</a>
+					<div id="news1" class="collapse">
+						<p>За прошедшее время наши строители сделали кровлю. И приступают к установке окон и внутренней отделке.</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<a href="#news2" data-toggle="collapse">
+						<div class="thumbnail">
+							<img src="assets/img/news2.jpg" alt="Можайск" title="Можайск">
+							<h4>В Можайске закончены фасадные работы</h4>
+						</div>
+					</a>
+					<div id="news2" class="collapse">
+						<p>В Можайске наши строители закончили отделку фасада кирпичом. Следующий этап это монтаж окон и установка дверей. Уже начат монтаж инженерных коммуникаций (вода, электричество, газ). Установлен чешский газгольдер VPS 6, для автономного газоснабжения.</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<a href="#news3" data-toggle="collapse">
+						<div class="thumbnail">
+							<img src="assets/img/news3.jpg" alt="Сантория" title="Сантория">
+							<h4>В КП &quot;Сантория&quot; закончили возведение стен из газобетона</h4>
+						</div>
+					</a>
+					<div id="news3" class="collapse">
+						<p>Прошло два с половиной месяца как мы писали о завершении строительство фундамент в КП &quot;Сантория&quot;. И вот наши строители уже закончили возведение двух этажей стен из газобетона Бонолит и приступили к монтажу стропильной системы.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="#news4" data-toggle="collapse">
+						<div class="thumbnail">
+							<img src="assets/img/news1.jpg" alt="Андрейково" title="Андрейково">
+							<h4>В Андрейково закончены кровельные работы</h4>
+						</div>
+					</a>
+					<div id="news4" class="collapse">
+						<p>За прошедшее время наши строители сделали кровлю. И приступают к установке окон и внутренней отделке.</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<a href="#news5" data-toggle="collapse">
+						<div class="thumbnail">
+							<img src="assets/img/news2.jpg" alt="Можайск" title="Можайск">
+							<h4>В Можайске закончены фасадные работы</h4>
+						</div>
+					</a>
+					<div id="news5" class="collapse">
+						<p>В Можайске наши строители закончили отделку фасада кирпичом. Следующий этап это монтаж окон и установка дверей. Уже начат монтаж инженерных коммуникаций (вода, электричество, газ). Установлен чешский газгольдер VPS 6 м, для автономного газоснабжения.</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<a href="#news6" data-toggle="collapse">
+						<div class="thumbnail">
+							<img src="assets/img/news3.jpg" alt="Сантория" title="Сантория">
+							<h4>В КП &quot;Сантория&quot; закончили возведение стен из газобетона</h4>
+						</div>
+					</a>
+					<div id="news6" class="collapse">
+						<p>Прошло два с половиной месяца как мы писали о завершении строительство фундамент в КП &quot;Сантория&quot;. И вот наши строители уже закончили возведение двух этажей стен из газобетона Бонолит и приступили к монтажу стропильной системы.</p>
+					</div>
+				</div>
+			</div>
+		    	</div>
+		    	<div class="tab-pane fade" id="tab-2">
+		    		<div class="row">
+				<div class="col-sm-4">
+					<a href="#idea1" data-toggle="collapse">
+						<div class="thumbnail">
+							<img src="assets/img/project1.jpg" alt="Андрейково" title="Андрейково">
+							<h4>Дизайн фасада частного дома</h4>
+						</div>
+					</a>
+					<div id="idea1" class="collapse">
+						<p>С точки зрения профессионалов,  фасад частного дома является его архитектурным одеянием, то есть, так называемой его внешней оболочкой, от которой зависит первое впечатление не только о здании, но и о его владельце.</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<a href="#idea2" data-toggle="collapse">
+						<div class="thumbnail">
+							<img src="assets/img/project2.jpg" alt="Можайск" title="Можайск">
+							<h4>Дизайн фасада частного дома</h4>
+						</div>
+					</a>
+					<div id="idea2" class="collapse">
+						<p>С точки зрения профессионалов,  фасад частного дома является его архитектурным одеянием, то есть, так называемой его внешней оболочкой, от которой зависит первое впечатление не только о здании, но и о его владельце.</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<a href="#idea3" data-toggle="collapse">
+						<div class="thumbnail">
+							<img src="assets/img/project3.jpg" alt="Сантория" title="Сантория">
+							<h4>Дизайн фасада частного дома</h4>
+						</div>
+					</a>
+					<div id="idea3" class="collapse">
+						<p>С точки зрения профессионалов,  фасад частного дома является его архитектурным одеянием, то есть, так называемой его внешней оболочкой, от которой зависит первое впечатление не только о здании, но и о его владельце.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="#idea4" data-toggle="collapse">
+						<div class="thumbnail">
+							<img src="assets/img/project4.jpg" alt="Андрейково" title="Андрейково">
+							<h4>Дизайн фасада частного дома</h4>
+						</div>
+					</a>
+					<div id="idea4" class="collapse">
+						<p>С точки зрения профессионалов,  фасад частного дома является его архитектурным одеянием, то есть, так называемой его внешней оболочкой, от которой зависит первое впечатление не только о здании, но и о его владельце.</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<a href="#idea5" data-toggle="collapse">
+						<div class="thumbnail">
+							<img src="assets/img/project5.jpg" alt="Можайск" title="Можайск">
+							<h4>Дизайн фасада частного дома</h4>
+						</div>
+					</a>
+					<div id="idea5" class="collapse">
+						<p>С точки зрения профессионалов,  фасад частного дома является его архитектурным одеянием, то есть, так называемой его внешней оболочкой, от которой зависит первое впечатление не только о здании, но и о его владельце.</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<a href="#idea6" data-toggle="collapse">
+						<div class="thumbnail">
+							<img src="assets/img/project6.jpg" alt="Сантория" title="Сантория">
+							<h4>Дизайн фасада частного дома</h4>
+						</div>
+					</a>
+					<div id="idea6" class="collapse">
+						<p>С точки зрения профессионалов,  фасад частного дома является его архитектурным одеянием, то есть, так называемой его внешней оболочкой, от которой зависит первое впечатление не только о здании, но и о его владельце.</p>
+					</div>
+				</div>
+			</div>
+		    	</div>
+		    	<div class="tab-pane fade" id="tab-3">
+		    	<div class="row">
+				<div class="col-sm-4">
+					<a href="#show1" data-toggle="collapse">
+						<div class="thumbnail">
+							<img src="assets/img/venek.jpg" alt="Андрейково" title="Андрейково">
+							<h4>Крупнейшая строительная выставка в Чешской Республике</h4>
+						</div>
+					</a>
+					<div id="show1" class="collapse">
+						<p>FOR ARCH &mdash; строительная выставка с самыми старыми традициями в Чешской Республике предоставляет чешским и заграничным экспонентам отличную возможность для перезентации своих услуг и продуктов в международной конкуренции. В прошлом году участвовали фирмы, которые выставлялись прежде, но в последние годы отсутствовали на выставках из-за экономической ситуации. Производители и поставщики строительной индустрии чувствуют после снижения в последние годы возможность получить новые контракты и представить свои услуги непосредственно потенциальным клиентам.</p>
+					</div>
+				</div>				
+			</div></div>
+		    </div>
+	        </div>
+	    </div>
+
+	</section>
+	<!-- END NEWS -->
+
+	<!-- CONTACTS -->
+	<div id="contact"></div>
+	<footer>
+		<div class="container">
+			<h3 class="text-center">Контакты</h3>
+			<p class="text-center"><em>Мы любим наших клиентов!</em></p>
+			<hr>
+			<div class="row">
+			    <div class="col-sm-4">
+					<h3 class="text-center">Офис в центре новой Москвы</h3>
+					<p><span class="glyphicon glyphicon-map-marker"></span> г. Москва, КП Подмосковные вечера, Россия</p>
+					<p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+					<p><span class="glyphicon glyphicon-hourglass"></span> Пн. &ndash; Сб. с 9:00 до 21:00</p>
+					<p><span class="glyphicon glyphicon-envelope"></span> mail&#64;mail.com</p>
+				</div>
+				<div class="col-sm-4">
+					<div class="row">
+						<h3 class="text-center">Обратная связь</h3>
+						<div class="col-sm-6 form-group">
+							<input class="form-control" id="name" name="name" placeholder="Имя" type="text" required>
+						</div>
+						<div class="col-sm-6 form-group">
+							<input class="form-control" id="number" name="number" placeholder="№ телефона" type="email" required>
+						</div>
+					</div>
+					<textarea class="form-control" id="comments" name="comments" placeholder="Комментарий" rows="5"></textarea>
+					<div class="row">
+						<div class="col-md-12 form-group">
+							<button class="btn center-block btn-lg btn-info" type="submit"><span class="glyphicon glyphicon-earphone"></span> Заказать звонок!</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<h3 class="text-center">Наши услуги</h3>
+					<ul class="sub-menu">
+						<li><a href="service.html">Архитектурное проектирование</a></li>
+						<li><a href="service.html">Реконструкция существующих зданий и сооружений</a></li>
+						<li><a href="service.html">Техническое заключение конструкций, экспертиза</a></li>
+						<li><a href="service.html">Капитальный и текущий ремонт помещений любого назначения</a></li>
+						<li><a href="service.html">Малоэтажное строительство</a></li>
+						<li><a href="service.html">Разработка и согласование проектной документации</a></li>
+					</ul>
+				</div>				
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div id="googleMap"></div>
+		</div>
+	</footer>
+	<div class="container-fluid social text-center">
+		<a href="" title="facebook"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+		<a href="" title="vkontakte"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
+		<a href="" title="instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+		<hr>
+		<p>LM &ndash; construction &#169; Все права защищены.</p>
+	</div>
+	<!-- END CONTACTS -->
+
+	<!-- SCRIPT -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2MBkl9cwsRxhvdyftQH3Lo3KkRujdNt4&callback=myMap"></script>
+</body>
+
+</html>

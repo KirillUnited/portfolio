@@ -1,0 +1,211 @@
+body {
+	margin: 0;
+	font-family: 'Poiret One', cursive;
+	font-size: 14px;
+	line-height: 1.4;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+p {
+	font-family: sans-serif;
+}
+section,
+footer {
+	margin-top: 50px;
+}
+.container-fluid {
+	max-width: 1600px;
+	padding: 0;
+}
+.carousel-indicators {
+	z-index: 1;
+}
+.about .container .row h3 {
+	margin: 10px 0 20px 0;
+}
+.about .container .row p {
+	text-align: justify;
+}
+.about .container .row ul {
+	text-align: left;
+	list-style: none;
+	font-family: sans-serif;
+	padding-left: 0;
+}
+.member {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+}
+.member:hover {
+    border-color: #f1f1f1;
+}
+.about .container .row .col-sm-3 p {
+	text-align: center;
+}
+.about .container .row .col-sm-3 {
+	margin-bottom: 0px;
+}
+.project .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.project .thumbnail:hover {
+    -webkit-box-shadow: 0 1px 5px 5px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 1px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.project .thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+.project .thumbnail h4,
+.project .thumbnail p {
+	margin-left: 10px;
+}
+.project .modal-footer .btn,
+.project .thumbnail .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.project .modal-footer .btn:hover,
+.project .thumbnail .btn:hover,
+.project .thumbnail .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+.project .modal-content {
+	border-radius: 0;
+}
+.project .modal-header, 
+.project .modal-body h4, 
+.project .modal-header .close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    padding: 10px;
+}
+.project .modal-header .close {
+	font-size: 50px;
+}
+.project .modal-body img {
+	width: 100%;
+	height: 100%;
+}
+.project .modal-body ul {
+	list-style: none;
+	color: black;
+	font-family: sans-serif;
+	text-align: center;
+	padding-left: 0;
+}
+footer {
+	color: #f2f2f2;
+	background-color: #333;	
+	margin-bottom: 30px;
+}
+footer .container .row .col-sm-4 .sub-menu>li>a{
+	color: #f2f2f2;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+footer .container .row .col-sm-4 .sub-menu>li>a:hover {
+	color: #f2f2f2;
+	text-decoration: none;
+}
+footer .container .row .col-sm-4 .sub-menu {
+	padding-left: 16px;
+}
+footer .container .row .col-sm-4 .row button {
+	margin-top: 15px;
+}
+footer span.glyphicon-earphone {
+	-webkit-animation: calling 4s ease-in-out infinite;
+	        animation: calling 4s ease-in-out infinite;
+}
+@-webkit-keyframes calling {
+	0% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+	25% {
+		-webkit-transform: scale(1.75);
+		        transform: scale(1.75);
+	}
+	50% {
+		-webkit-transform: scale(1.75) rotate(15deg);
+		        transform: scale(1.75) rotate(15deg);
+	}
+	60% {
+		-webkit-transform: scale(1.75) rotate(0deg);
+		        transform: scale(1.75) rotate(0deg);
+	}
+	70% {
+		-webkit-transform: scale(1.75) rotate(15deg);
+		        transform: scale(1.75) rotate(15deg);
+	}
+	90% {
+		-webkit-transform: scale(1.75) rotate(0deg);
+		        transform: scale(1.75) rotate(0deg);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+}
+@keyframes calling {
+	0% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+	25% {
+		-webkit-transform: scale(1.75);
+		        transform: scale(1.75);
+	}
+	50% {
+		-webkit-transform: scale(1.75) rotate(15deg);
+		        transform: scale(1.75) rotate(15deg);
+	}
+	60% {
+		-webkit-transform: scale(1.75) rotate(0deg);
+		        transform: scale(1.75) rotate(0deg);
+	}
+	70% {
+		-webkit-transform: scale(1.75) rotate(15deg);
+		        transform: scale(1.75) rotate(15deg);
+	}
+	90% {
+		-webkit-transform: scale(1.75) rotate(0deg);
+		        transform: scale(1.75) rotate(0deg);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+}
+#googleMap {
+    width: 100%;
+    height: 200px;
+}
+.social {
+	margin-bottom: 20px;
+}
+.social a {
+	padding: 0 10px;
+}

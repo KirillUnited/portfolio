@@ -1,0 +1,131 @@
+/*<!-- TOP MENU -->*/
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 53px;
+	background-color: white;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	z-index: 10;
+}
+.logo {
+	display: block;
+	float: left;
+	height: 53px;
+}
+.logo img {
+	height: 53px;
+}
+.main-menu {
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.responsive-menu {
+	position: absolute;
+	width: 100%;
+	top: 53px;
+	left: 0;
+	text-align: center;
+	background-color: white;
+	-webkit-box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+	z-index: 100;
+}
+.menu > .responsive-menu > a {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.main-menu > li {
+	position: relative;
+	display: inline-block;
+	margin-right: -4px;
+}
+.responsive-menu a,
+.main-menu a {
+	display: block;
+	color: #333;
+	text-decoration: none;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+.responsive-menu a,
+.main-menu > li > a {
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 17px 14px;
+	margin-left: -1px;
+}
+.responsive-menu a:hover,
+.main-menu a:hover,
+.responsive-menu a:focus,
+.main-menu a:focus {
+	color: #f2f2f2;
+	background: #333;
+}
+.main-menu .sub-menu {
+	position: absolute;
+	display: none;
+	width: 250px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-color: white;
+	-webkit-box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+	z-index: 200;
+}
+.main-menu > li:hover .sub-menu {
+	display: block;
+}
+.sub-menu > li > a {
+	font-family: sans-serif;
+	color: black;
+	padding: 12px 10px;
+}
+.sub-menu > li > a:hover {
+	padding-left: 20px;
+}
+.logo_sm,
+.main-menu .icon {
+	display: none;
+	padding: 0;
+	height: 53px;
+}
+.navbar-toggle .icon-bar {
+	background-color: #333; 
+}
+.navbar-toggle:hover .icon-bar {
+	background-color: #f2f2f2; 
+}
+.navbar-toggle {
+	margin: 0 auto;
+	height: 53px;
+}
+/*<!-- END TOP MENU -->*/
+
+/*@MEDIA*/
+@media screen and (max-width: 768px) {
+	.logo_lg,
+	.main-menu a {
+		display: none;
+	}
+	.logo_sm,
+	.main-menu a.icon {
+		display: block;
+	}
+	.logo_sm {
+		float: left;
+	}
+	.main-menu a.icon {
+		float: right;
+	}
+}
+@media screen and (min-width: 768px) {
+	.responsive-menu {
+		display: none!important;
+	}
+}

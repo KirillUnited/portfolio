@@ -1,0 +1,18 @@
+#blog .blog-content .blog-single > .tag > a {
+	display: block;
+    color: #63bc63;
+    background-color: #f1f4f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+#blog .blog-content .blog-single .tag {
+	display: inline-flex;
+	align-items: center;
+	margin-top: 30px;
+}
+#blog .blog-content .blog-single blockquote {
+	margin: 30px 0;
+    display: block;
+    color: #aaaaaa;
+}

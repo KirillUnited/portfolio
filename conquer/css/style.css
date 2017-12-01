@@ -1,0 +1,164 @@
+body, h1, h2, p {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif!important;
+}
+h2 {
+	font-size: 20px;
+	font-weight: 700;
+}
+.navbar {
+	background: #383E4C;
+	border-bottom: #383E4C;
+}
+li {
+	padding: 10px;
+}
+.navbar-inverse .navbar-nav > li > a {
+	border: 1px solid #646d7c;
+	color: #fff; 
+	font-size: 20px;
+	padding: 15px 25px;
+	}	
+.navbar-nav {
+    float: none;
+    text-align: center;
+}
+.navbar-nav li {
+    float: none;
+    display: inline-block;
+}
+.navbar-inverse .navbar-nav > li > a.current, 
+.navbar-inverse .navbar-nav > li > a:hover {
+	background: #49505F;
+}
+.header-area {
+	padding: 250px 0;
+}
+.header-content h1 {
+	font-size: 70px;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+}
+.header-content p {
+	font-size: 25px;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+}
+.about-section {
+	padding: 70px 0;
+}
+.feature-content {
+	background: #F2F2F2;
+	padding-bottom: 20px;
+}
+.feature-content h2 {
+	text-align: left;
+	padding: 0 20px;
+}
+.feature-content p {
+	text-align: left;
+	padding: 0 20px;
+}
+.blog-content {
+	background: #F2F2F2;
+	padding-bottom: 20px;
+}
+.blog-content h2 {
+    color: #666666
+}
+.blog-content button {
+	margin-left: 220px;
+}
+.our-service {
+	padding: 65px 0 85px 0;
+}
+.service h1 {
+	font-size: 36px;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+}
+.service p {
+	font-size: 18px;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+}
+#section3 {
+	margin-top: 70px;
+}
+.test-area {
+	padding: 70px 0 50px 0;
+}
+.test-content {
+	background: #F2F2F2;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+.test-content h2 {
+	padding: 10px 0;
+	color: #666666;
+}
+.test-content p {
+	text-align: left;
+	padding: 0 20px;
+}
+.tm-box {
+	background: #F2F2F2;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+.tm-box h2 {
+	padding: 10px 20px;
+	color: #666666;
+}
+.tm-box p {
+	text-align: left;
+	padding: 0 20px;
+}
+.tm-box button {
+	margin: 0 20px;
+}
+#contact-area .container {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.contact-content h1 {
+	font-size: 36px;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+	margin-bottom: 30px;
+}
+.contact-content p {
+	font-size: 16px;
+	padding: 20px 15px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	color: #000;
+	background: rgba(242, 242, 242, 0.4)
+}
+#contact-area .container {
+	max-width: 750px;
+}
+input {
+	margin-bottom: 15px;
+}
+.form-control {
+	color: #000;
+	border: none;
+	background: rgba(242, 242, 242, 0.4)
+}
+.form-group button {
+	color: #fff;
+	background: #000;
+	margin-top: 15px;
+}
+.contact-form-left {
+	padding-left: 0;
+}
+.contact-form-right {
+	padding-right: 0;
+}
+footer p {
+	color: #666;
+	font-size: 12px;
+	margin-bottom: 165px;
+	margin-top: 65px;
+}
