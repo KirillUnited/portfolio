@@ -5,6 +5,8 @@
 #blog .blog-content a,
 #blog .blog-recent-posts a {
     color: #31373a;
+    -webkit-transition: 0.7s;
+    -o-transition: 0.7s;
     transition: 0.7s;
 }
 #blog .blog-header a:hover,
@@ -13,9 +15,15 @@
     color: #63bc63;
 }
 #blog .blog-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: start;
-    align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 200px;
     color: #fff;
     margin-top: 50px;
@@ -62,6 +70,9 @@
 #blog .category i {
     color: #31373a;
 }
+#blog .category .ion-planet:before {
+    content: "\f343";
+}
 #blog .social {
     padding: 25px;
 }
@@ -82,6 +93,8 @@
     height: 60px;
     font-size: 24px;
     color: #fff;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
     transition: 0.6s;
 }
 #blog .social a:hover {

@@ -6,7 +6,7 @@ body {
 }
 a,
 a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 h1 {
     font-size: 3rem;
@@ -45,6 +45,8 @@ p {
     padding: 5px 15px;
     border-radius: 4px;
     margin: 10px;
+    -webkit-transition: 0.7s;
+    -o-transition: 0.7s;
     transition: 0.7s;
 }
 .navbar-default .navbar-nav > li > a:hover {
@@ -74,9 +76,15 @@ p {
     background-color: rgba(0, 0, 0, 0.65);
 }
 #home {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100vh;
 }
 .container-home {
@@ -87,6 +95,8 @@ p {
     border: 1px solid #222;
     text-transform: uppercase;
     color: #fff;
+    -webkit-transition: 0.7s;
+    -o-transition: 0.7s;
     transition: 0.7s;
     background-color: rgba(255, 255, 255, 0.1);
 }
@@ -127,7 +137,8 @@ p {
     color: #63bc63;
 }
 #about .slider-box .owl-carousel {
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.9);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.9);
 }
 #about .light-content {
     margin-top: 70px;
@@ -154,6 +165,8 @@ p {
 #contact li a,
 #contact span {
     color: #fff;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
     transition: 0.6s;
 }
 #contact li a {
