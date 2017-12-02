@@ -161,6 +161,21 @@ p {
 		margin-bottom: 20px;
 		padding: 80px 40px;
 	}
+	figcaption h2 {
+		font-size: 1.5rem;
+	}
+	figcaption p {
+		font-size: 1.2rem;
+	}
+	.container-home h1,
+	.about-team .title h1,
+	.about-text h1,
+	#contact h1 {
+		font-size: 2.2rem;
+	}
+	.container-home p {
+		font-size: 1.5rem;
+	}
 }
 .about-team .title {
 	margin: 100px 0;
@@ -220,6 +235,10 @@ p {
 	margin: 15px 0;
 }
 #gallery .figure figcaption {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	position: absolute;
 	top: 0;
 	left: 25%;
@@ -234,6 +253,9 @@ p {
 	-webkit-transition: 1s;
 	-o-transition: 1s;
 	transition: 1s;
+}
+#gallery .figure figcaption h2 {
+	margin-top: 10px;
 }
 #gallery .figure figcaption p {
 	color: #fff;
