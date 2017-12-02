@@ -240,19 +240,23 @@ p {
 	align-items: center;
 	justify-content: center;
 	position: absolute;
-	top: 0;
-	left: 25%;
+	top: 0%;
+	left: 15px;
 	width: 50%;
 	height: 100%;
 	text-align: center;
 	padding: 5px;
 	background-color: #304352;
+	-webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
 	-webkit-transform: rotateY(-90deg);
 	        transform: rotateY(-90deg);
 	opacity: 0;
 	-webkit-transition: 1s;
 	-o-transition: 1s;
 	transition: 1s;
+	will-change: transform, opacity;
 }
 #gallery .figure figcaption h2 {
 	margin-top: 10px;
