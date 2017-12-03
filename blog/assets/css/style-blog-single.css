@@ -13,10 +13,13 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 30px;
+    margin: 20px 0;
 }
 #blog .blog-content .blog-single blockquote {
     margin: 30px 0;
     display: block;
     color: #aaaaaa;
+}
+#blog .blog-content h2 {
+    color: inherit;
 }

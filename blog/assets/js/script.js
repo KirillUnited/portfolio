@@ -41,24 +41,6 @@ $(function() {
 	});
 });
 
- // bxslider
- $(document).ready(function(){
-  $('.bxslider').bxSlider({
-    mode: 'horizontal',
-    slideSelector: '',
-    infiniteLoop: true,
-    controls: false,
-    auto: true,
-    autoHover: true,
-    speed: 500,
-    startSlide: 0,
-    captions: false,
-    slideWidth: 920,
-    items: 2,
-    responsive: true,
-  });
-});
-
 // owlCarousel
 
 $(document).ready(function(){

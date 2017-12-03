@@ -1,5 +1,5 @@
-.overlay {
-    height: 0;
+#blog {
+    background-color: rgba(0, 0, 0, 0.3);
 }
 #blog .blog-header a,
 #blog .blog-content a,
