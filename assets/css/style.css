@@ -1,6 +1,115 @@
-.container .block a {
-	display: block;
-	padding: 15px;
-	margin: 15px;
-	background-color: lightgrey;
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	line-height: 1.6;
+	overflow-x: hidden;
+	background-color: #555;
+}
+.github img {
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+}
+.gallery {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+.item {
+	-ms-flex-preferred-size: 50%;
+	    flex-basis: 50%;
+	position: relative;
+	overflow: hidden;
+}
+.item img {
+	-webkit-transform: scale(1);
+	    -ms-transform: scale(1);
+	        transform: scale(1);
+	-webkit-transition: 15s -webkit-transform linear;
+	transition: 15s -webkit-transform linear;
+	-o-transition: 15s transform linear;
+	transition: 15s transform linear;
+	transition: 15s transform linear, 15s -webkit-transform linear;
+}
+.item:hover img {
+	-webkit-transform: scale(1.3);
+	    -ms-transform: scale(1.3);
+	        transform: scale(1.3);
+}
+.item-content {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.item-content .btn-rnd {
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	text-align: center;
+	margin-top: 60px;
+	opacity: 0;
+	-webkit-transition: all 1000ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
+	-o-transition: all 1000ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
+	transition: all 1000ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.item:hover .item-content .btn-rnd {
+	margin-top: 0;
+	opacity: 1;
+}
+.item-content h4 {
+	line-height: 80px;
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+}
+.modal.fade .modal-dialog {
+	-webkit-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	transform: translate(0, 0);
+}
+.modal-content {
+	border-radius: 0;
+}
+.modal-content span {
+	position: absolute;
+	top: -8px;
+	left: -8px;
+	cursor: pointer;
+	background-color: #fff;
+	border-radius: 8px;
+}
+.modal-body {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 0;
+}
+.modal-body-content {
+	padding: 0 15px;
+	white-space: nowrap;
+	background-color: #fafbfc;
+}
+.modal-body-content h4{
+	margin-bottom: 0;
+}
+.modal-body-content ul{
+	padding-left: 20px;
 }
