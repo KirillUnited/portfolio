@@ -1,0 +1,64 @@
+/* Small Devices, Tablets */
+
+@media only screen and (max-width : 767px) {
+	.nav>li {
+		margin-left: 0;
+	}
+	.navbar>.container .navbar-brand {
+		position: absolute;
+		width: 100px;
+		height: 50px;
+	}
+	.carousel-inner {
+		margin-top: 30px;
+	}
+	.carousel-caption h1 {
+		font-size: 5vmin;
+		line-height: 5vmin;
+	}
+	.carousel-caption a {
+		width: 20vmin;
+		font-size: 1.3vmin;
+		padding: 1vmin;
+		margin-top: 4vmin;
+		border-radius: 3vmin;
+	}
+	.carousel-control,
+	.carousel-indicators {
+		display: none;
+	}
+	footer {
+		height: 10vmin;
+	}
+	footer .container p {
+		font-size: 1.4vmin;
+		line-height: 10vmin;
+	}
+}
+
+@media only screen and (min-width : 768px) {
+	.wrapper,
+	.navbar {
+		width: 1280px;
+		margin: auto;
+	}
+	.navbar-nav {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+	.navbar,
+	.navbar-nav {
+		height: 86px;
+		background-color: #ffffff;
+	}
+	.container {
+		width: 1170px;
+	}
+	#carousel {
+		height: 670px;
+	}
+}
